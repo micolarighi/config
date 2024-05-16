@@ -1,0 +1,6 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "svelte.enable-ts-plugin": true,
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always"
+}
