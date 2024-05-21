@@ -1,17 +1,25 @@
+theme = "kanagawa"
+[keys.normal]
+C-s = [":w"]
 
-theme = "onedarker"
 [keys.insert]
-"C-space" = "normal_mode"
+C-space = "normal_mode"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
 
 [editor.lsp]
 enable=true
 auto-signature-help=true
 display-messages = true
+snippets = true
+display-inlay-hints = true
 
 [editor.indent-guides]
 render = true
-character = "┊"
-skip-levels = 1
+character = "|"
 
 [editor.statusline]
 left = ["mode", "spinner", "file-modification-indicator", "read-only-indicator"]
@@ -33,6 +41,3 @@ gutters = ["diff", "diagnostics", "line-numbers", "spacer"]
 soft-wrap.enable = true
 soft-wrap.max-indent-retain=80
 scrolloff = 10 
-
-
-
