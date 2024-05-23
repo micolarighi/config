@@ -119,7 +119,7 @@ alias held="hx ."
 alias helc="hx ~/Code"
 alias tm="tmux"
 alias co="fdfind --type d --exclude .git --exclude node_modules | fzf-tmux -p --reverse | xargs hx"
-alias cdl="cd ~ && cd \$(find * -type d | fzf-tmux -p --reverse)"
+alias ca="cd ~ && cd \$(find * -type d | fzf-tmux -p --reverse)"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
